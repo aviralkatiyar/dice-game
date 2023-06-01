@@ -19,7 +19,7 @@ if(rndInt>rndInt2){
 
     document.querySelector("h1").innerHTML="Player 1 wins!";
 }
-else if(rndInt>rndInt2){
+else if(rndInt<rndInt2){
 
     document.querySelector("h1").innerHTML="Player 2 wins!";
 }
